@@ -17,7 +17,7 @@ echo
 echo 'Press Enter to continue.'
 read -p '************************' continue
 
-wget -O - https://gitlab.com/rubyonracetracks/docker-debian-common/raw/master/delete-containers.sh | bash -s "$CONTAINER"
-wget -O - https://gitlab.com/rubyonracetracks/docker-debian-common/raw/master/delete-images.sh | bash -s "$DOCKER_IMAGE"
+wget -O - https://gitlab.com/rubyonracetracks/docker-common/raw/master/delete-containers.sh | bash -s "$CONTAINER"
+wget -O - https://gitlab.com/rubyonracetracks/docker-common/raw/master/delete-images.sh | bash -s "$DOCKER_IMAGE"
 
 sh copy_new.sh $DOCKER_IMAGE $DOCKER_CONTAINER
