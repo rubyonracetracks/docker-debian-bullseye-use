@@ -3,13 +3,7 @@
 Welcome to my repository for using my Docker images based on Debian Bullseye.
 
 ## Prerequisites
-* Git and Docker should be installed.
-* /bin/sh should point to Bash instead of Dash.  If you installed Docker with the procedure in my [Different Docker Tutorial](https://www.differentdockertutorial.com/), this step is automatically taken care of for you.  If you did not install Docker in this manner, enter the following commands:
-
-```
-sudo rm /bin/sh
-sudo ln -s /bin/bash /bin/sh
-```
+* Git and Docker must be installed.
 
 ## Other Notes
 * When you start the Rails server from an app in your Docker container, enter the command "rails s -b 0.0.0.0". The "-b 0.0.0.0" is ESSENTIAL for viewing your app from the web browser on your host machine. If you simply enter "rails s" or "rails server", you will NOT be able to view your app from the web browser on your host machine.
