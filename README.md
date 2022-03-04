@@ -30,4 +30,4 @@ Welcome to my repository for using my Docker images based on Debian Bullseye.
 | min-stage1.sh | [debian-bullseye-min-stage1](https://gitlab.com/rubyonracetracks/docker-debian-bullseye-min-stage1) | Building block for downstream images |
 | min-stage2.sh | [debian-bullseye-min-stage2](https://gitlab.com/rubyonracetracks/docker-debian-bullseye-min-stage2) | Building block for downstream images and for working on Javascript apps |
 | min-rvm.sh | [debian-bullseye-min-rvm](https://gitlab.com/rubyonracetracks/docker-debian-bullseye-min-rvm) | Building block for downstream images |
-| rvm-rails-neutrino6.sh | [debian-bullseye-rvm-rails-neutrino6](https://gitlab.com/rubyonracetracks/docker-debian-bullseye-rvm-rails-neutrino6) | For developing Rails Neutrino 6 |
+| rvm-rails-neutrino7.sh | [debian-bullseye-rvm-rails-neutrino7](https://gitlab.com/rubyonracetracks/docker-debian-bullseye-rvm-rails-neutrino7) | For developing Rails Neutrino 7 |
