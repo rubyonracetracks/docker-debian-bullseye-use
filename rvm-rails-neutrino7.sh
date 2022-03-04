@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ABBREV='rvm-rails-neutrino6'
+ABBREV='rvm-rails-neutrino7'
 OWNER='rubyonracetracks'
 DISTRO='debian'
 SUITE='bullseye'
