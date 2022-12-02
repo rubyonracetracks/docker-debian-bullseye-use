@@ -4,7 +4,7 @@ ABBREV='javascript-docusaurus'
 OWNER='rubyonracetracks'
 DISTRO='debian'
 SUITE='bullseye'
-DOCKER_IMAGE="registry.gitlab.com/$OWNER/docker-$DISTRO-$SUITE-min-stage2"
+DOCKER_IMAGE="ghcr.io/$OWNER/docker-$DISTRO-$SUITE-min-stage2"
 CONTAINER="container-$DISTRO-$SUITE-$ABBREV"
 
 echo 'By default, your host port numbers are:'
